@@ -1,0 +1,15 @@
+a:link {
+    color: #FFF433;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    background-color: skyblue;
+}
+p:not(.niño){
+    color: royalblue;
+}
+.container div:nth-child(1){
+    color: seagreen;
+}
