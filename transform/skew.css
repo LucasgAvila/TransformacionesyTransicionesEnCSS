@@ -4,6 +4,7 @@ div {
     background-color: red;
     border-radius: 20%;
 }
-div:hover{
+.container:hover{
     transform: skewY(20deg);
+    transition: transform 2s;
 }
