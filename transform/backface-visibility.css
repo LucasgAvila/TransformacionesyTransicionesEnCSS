@@ -21,3 +21,19 @@
     background: blue;
     transform: rotateX(180deg);
 }
+@media (prefers-reduced-motion: no-preference) {
+    .card {
+      transition: transform 0.5s;
+      transform-style: preserve-3d;
+    }
+    .card:hover {
+      transform: rotateY(180deg);
+    }
+    .face {
+      backface-visibility: hidden;
+    }
+    .back {
+      transform: rotateY(180deg);
+      opacity: 1;
+    }
+  }
